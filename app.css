@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Nerko One", cursive;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  outline: 2px solid;
+  background: url(./backgroun_todo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+.titulo_entry {
+  position: absolute;
+  width: 100%;
+  font-family: "Nerko One", cursive;
+  font-size: 30px;
+}
+.titulo {
+  color: aliceblue;
+  position: absolute;
+  left: 32%;
+  top: 30px;
+  overflow: hidden;
+}
+
+.titulo_entry2 {
+  position: absolute;
+  width: 100%;
+  font-family: "Nerko One", cursive;
+  font-size: 30px;
+}
+.titulo2 {
+  color: aliceblue;
+  position: absolute;
+  left: 27%;
+  top: 30px;
+  overflow: hidden;
+}
+
+.subtitle {
+  width: 100%;
+  position: absolute;
+  background-color: brown;
+}
+.name_moon {
+  color: aliceblue;
+  position: absolute;
+  font-size: 1.2rem;
+  left: 30px;
+  top: 123px;
+}
+.km_moon {
+  color: aliceblue;
+  position: absolute;
+  font-size: 1rem;
+  left: 30px;
+  top: 143px;
+}
+
+.planet1 {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 200px;
+  left: 650px;
+  z-index: 7;
+}
+.subtitle_marte {
+  width: 100%;
+  position: absolute;
+  background-color: brown;
+  scale: 2;
+}
+.subtitle_earth {
+  width: 100%;
+  position: absolute;
+  background-color: brown;
+  scale: 2;
+}
+.subtitle_satur {
+  width: 100%;
+  position: absolute;
+  background-color: brown;
+  scale: 2;
+}
+.subtitle_jupiter {
+  width: 100%;
+  position: absolute;
+  background-color: brown;
+  scale: 2;
+}
+.subtitle_sun {
+  width: 100%;
+  position: absolute;
+  background-color: brown;
+  scale: 2;
+}
+.subtitle_UY_Scuti {
+  width: 100%;
+  position: absolute;
+  background-color: brown;
+  scale: 2;
+}
+.subtitle_milky_way {
+  width: 100%;
+  position: absolute;
+  background-color: brown;
+  scale: 2;
+}
+.subtitle_andromeda {
+  width: 100%;
+  position: absolute;
+  background-color: brown;
+  scale: 2;
+}
+
+.earth {
+  position: absolute;
+  bottom: 0px;
+}
+.planet3 {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 270px;
+  left: 650px;
+  z-index: 6;
+  stroke-width: 1px;
+}
+.tres {
+  position: absolute;
+  bottom: 50%;
+  stroke-width: 1px;
+}
+
+.planet4 {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 270px;
+  left: 650px;
+  z-index: 5;
+}
+.cuatro {
+  position: absolute;
+  bottom: 50%;
+}
+.estrella1 {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 270px;
+  left: 650px;
+  z-index: 4;
+}
+.star1 {
+  position: absolute;
+  bottom: 50%;
+}
+.estrella2 {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 270px;
+  left: 650px;
+  z-index: 3;
+}
+.star2 {
+  position: absolute;
+  bottom: 50%;
+}
+.fugaz {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 450px;
+  left: -20px;
+  z-index: 1;
+}
+.starFugaz {
+  position: absolute;
+  bottom: 50%;
+}
+.fugaz2 {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 450px;
+  right: -20px;
+  z-index: 1;
+}
+.starFugaz2 {
+  position: absolute;
+  bottom: 50%;
+}
+
+.galaxia1 {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 270px;
+  left: 650px;
+  z-index: 2;
+}
+.gala1 {
+  position: absolute;
+  bottom: 50%;
+}
+
+.galaxia2 {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 270px;
+  left: 650px;
+  z-index: 1;
+}
+.gala2 {
+  position: absolute;
+  bottom: 50%;
+}
+
+.satelite {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  z-index: 1;
+}
+.satel {
+  position: absolute;
+  bottom: 50%;
+}
+
+.marte {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 285px;
+  left: 650px;
+  z-index: 8;
+}
+.mars {
+  position: absolute;
+  bottom: 50%;
+}
+.planet2 {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 150px;
+  left: 10px;
+}
+
+.moon {
+  position: absolute;
+  bottom: 0px;
+}
+.num1 {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  bottom: 200px;
+}
+
+.barco {
+  position: absolute;
+  bottom: 0px;
+  z-index: 20;
+}
+
+.num2 {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  bottom: -60px;
+  z-index: 21;
+}
+.otras_olas {
+  position: absolute;
+  bottom: 0px;
+}
+.num3 {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  bottom: -60px;
+  z-index: 22;
+}
+
+.olas_pequenas {
+  position: absolute;
+  bottom: 0px;
+}
